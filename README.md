@@ -1,6 +1,21 @@
-# SigmaOS-cinnamon-menus
+# SigmaOS Cinnamon Menus
 
-Part of SigmaOS multi-repository architecture.
+This `no_std` crate currently exposes a `CinnamonMenus` value whose
+constructor stores the fixed name `SigmaOS Cinnamon Menus`. It does not parse
+desktop menu definitions, enumerate applications, or render a menu.
+
+The inline unit test checks the stored name only; there is no menu integration
+or graphical frontend in this crate.
+
+## Build
+
+```sh
+cargo check --lib
+```
+
+## License
+
+Apache-2.0. See [`Cargo.toml`](Cargo.toml).
 
 ## Inspiration
 
