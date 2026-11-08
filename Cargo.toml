@@ -2,9 +2,8 @@
 name = "sigmaos_cinnamon_menus"
 version = "0.1.0"
 edition = "2021"
-license = "Apache-2.0"
-
-[dependencies]
+license = "MIT"
+description = "SigmaOS cinnamon-menus component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_cinnamon_menus"
